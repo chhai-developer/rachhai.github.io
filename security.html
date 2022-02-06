@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css"></link>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">ISC-INT</a>
+    <a href="security.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SECURITY</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="contect.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="security.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SECURITY</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="contect.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+</div>
+</div>
+<br />
+<br />
+<br />
+<div id="profile3"></div>
+<h2><b>Security Services</b></h2>
+  <!-- The Tour Section -->
+  <p><b>Try free for 14 days.You won't be charged untill your free trail ends.You can cancel anytime.If you want to try we have the bast price for you! Please think about your security online from anonymous.Good ideas from ISC-INT Company.co LTD of Cambodia/Phnom Penh/Takeo the biggest company.</b></p>
+    <div class="w3-container w3-content w3-padding-30" style="max-width:800px;">
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px;">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white" style="border:2px;border-radius:10px">
+            <h4><b>Internet Security</b></h4>
+            <h6><b>9.99 USD / month</b></h6>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Purchase</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white" style="border:2px;border-radius:10px">
+            <h4><b>Home Security</b></h4>
+            <h6><b>14.99 USD / month</b></h6>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Purchase</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white" style="border:2px;border-radius:10px"">
+            <h4><b>Devices Security</b></h4>
+            <h6><b>6.99 USD / month</b></h6>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Purchase</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Purchase</h2>
+      </header>
+      <div class="w3-container"
+        <p><label><i class="fa fa-user"></i><b> Name</b></label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter your name">
+        <h6><label><i class="fa fa-envelope"></i><b> Email</b></label></h6>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="contect.html" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+
+<br />
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-white w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://isc-int.w3spaces.com" target="_blank"style="text-decoration: none;">ISC-INT Company</a></p>
+  </footer>
+
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
