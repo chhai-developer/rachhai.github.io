@@ -15,7 +15,7 @@ p {
 				width:100px;
 				height:100px;
 				background-color:#000;
-				background: url('./img/isc-int.jpg');
+				background: url('img/isc-int.jpg');
 				background-position:center;
 				background-size:cover;
 				color:#96FF00;
@@ -46,7 +46,7 @@ p {
 				border-radius: 50px;
 				margin: auto;
 				z-index: 1;
-				background: url('./img/about.png');
+				background: url('img/about.png');
 				background-position:center;
 				background-size:cover;
 }
@@ -70,7 +70,7 @@ p {
 				border-radius: 50px;
 				margin: auto;
 				z-index: 1;
-				background: url('./img/contect.png');
+				background: url('img/contect.png');
 				background-position:center;
 				background-size:cover;
 }
@@ -82,7 +82,7 @@ p {
 				border-radius: 50px;
 				margin: auto;
 				z-index: 1;
-				background: url('./img/security.png');
+				background: url('img/security.png');
 				background-position:center;
 				background-size:cover;
 }
